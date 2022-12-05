@@ -1,0 +1,75 @@
+
+.titles {
+    text-align: center;
+    color : white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(34, 51, 37);
+    background-color: rgb(206, 231, 216);
+    margin-top: 20px;
+}
+body,html{
+    height: 100%;
+}
+header{
+    margin-top: 20px;
+    text-align:center;
+    background-color: rgb(132, 167, 139);
+    padding: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
+header h1{
+    font-size: 40px;
+}
+
+footer {
+    background-color: rgb(132, 167, 139);
+    padding: 12px;
+    text-align: center;
+    color: white;
+  }
+
+  li{
+    display: inline;
+    float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: rgb(132, 167, 139);
+}
+li a:hover{
+    background-color: rgb(66, 97, 71);
+}
+
+/* Style the list inside the menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  width: 100%;
+  background-color:rgb(132, 167, 139);
+}
+.bodyText {
+    text-align: center;
+    color: rgb(34, 51, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.bg{
+    background-image: url("headerBG.png");
+    height: 50%;
+}
+#headshot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
